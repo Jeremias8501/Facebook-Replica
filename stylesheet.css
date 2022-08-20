@@ -1,0 +1,130 @@
+* {
+    
+    box-sizing:border-box;
+}
+:root {
+    --color-blue:rgb(24, 119, 242);
+}
+body {
+    margin:0;
+    padding:0;
+    background-color: #f0f2f0;
+}
+
+
+/*Main*/
+main {
+    margin:0 auto 135px;
+    padding: 0;
+    font-family:Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+fieldset {
+    margin:auto;
+    border:none;
+}
+h1 {
+    color: var(--color-blue);
+    font-weight:700;
+    font-size: 50px;
+    letter-spacing: -3px;
+    text-align: center;
+}
+h3 {
+    margin: 10px;
+    text-align: center;
+    font-weight: 100;
+}
+form {
+    background-color: white;
+    padding:10px 10px;
+    border-radius: 7px;
+    width:400px;
+    box-shadow: 3px 3px 10px#b6b8c5;
+    margin:-20px auto;
+    height: 300px;
+}
+input {
+    padding:10px;
+    display: block;
+    text-align: left;
+    margin: 20px auto;
+    width:350px;
+    font-size:17px;
+    border:1px solid #d9dbe6;
+    border-radius: 5px;
+    color:black;
+}
+#submit {
+    background-color:var(--color-blue);
+    color:white;
+    border:none;
+    text-align: center;
+    font-weight: 700;
+}
+div{
+    display: flex;
+}
+p {
+    text-align: center;
+    display: inline;
+    margin: auto;
+    position: relative;
+}
+
+p>a[class="forget"]:link{
+    color:rgb(24, 119, 242);
+    font-size: 14px;
+    text-decoration: none;
+}
+p>a[class="forget"]:hover{
+    color:rgb(24, 119, 242);
+    font-size: 14px;
+    text-decoration: underline;
+}
+p>a[class="forget"]:active{
+    color:red;
+}
+
+p>a[class="sign"]:link{
+    color:rgb(24, 119, 242);
+    font-size: 14px;
+    text-decoration: none;
+}
+p>a[class="sign"]:hover{
+    color:rgb(24, 119, 242);
+    font-size: 14px;
+    text-decoration: underline;
+}
+p>a[class="sign"]:active{
+    color:red;
+}
+
+/*Footer */
+footer {
+    background-color: white;
+    padding-top:130px;
+    padding-right:10vw;
+    padding-left:10vw;
+    padding-bottom: 10px;
+
+}
+footer>p>a:link {
+    color:#8a8d91;
+    text-decoration: none;
+    font-size: 14px;
+}
+.language, .option {
+    padding:0 5px;
+    line-height: 1.5px;
+    font-size: 3vw;
+}
+.button {
+    width:25px;
+    height:20px;
+    background-color: #f0f2f0;
+    font-weight: 900;
+    font-size:13px;
+    border:1px solid #787a7e;
+    color:#8a8d91;
+}
