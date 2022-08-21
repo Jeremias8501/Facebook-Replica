@@ -1,0 +1,28 @@
+:root {
+    --color-blue:rgb(24, 119, 242);
+}
+header {
+    justify-content: flex-end
+}
+h1 {
+    color: var(--color-blue);
+    font-weight:700;
+    font-size: 40px;
+    letter-spacing: -3px;
+    text-align: center;
+}
+input {
+    padding:10px;
+    display: block;
+    text-align: left;
+    margin: 20px auto;
+    width:350px;
+    font-size:17px;
+    border:1px solid #d9dbe6;
+    border-radius: 5px;
+    color:black;
+    overflow:hidden;
+}
+body {
+    font-family:Helvetica, Arial, sans-serif;
+}
