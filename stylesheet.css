@@ -63,7 +63,10 @@ input {
     font-weight: 700;
 }
 div{
-    display: flex;
+    display: inline-flex;
+    position: relative;
+    left:70px;
+
 }
 p {
     text-align: center;
