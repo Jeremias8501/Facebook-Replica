@@ -88,6 +88,9 @@ p>a[class="forget"]:hover{
 p>a[class="forget"]:active{
     color:red;
 }
+p>a[class="forget"]:visited{
+    color:rgb(24, 119, 242);
+}
 
 p>a[class="sign"]:link{
     color:rgb(24, 119, 242);
@@ -102,7 +105,9 @@ p>a[class="sign"]:hover{
 p>a[class="sign"]:active{
     color:red;
 }
-
+p>a[class="sign"]:visited{
+    color:rgb(24, 119, 242);
+}
 /*Footer */
 footer {
     background-color: white;
